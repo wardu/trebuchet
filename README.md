@@ -15,9 +15,36 @@ Some prerequisites:
   found at the bottom left
   ![Aave Faucet](./assets/aavefaucet.png 'Aave Faucet')
 
+---
+
 1. Load all of contents of the 'Contracts' folder into Remix (https://remix.ethereum.org)
+   ![Contracts in Remix](./assets/remix-files.png 'Remix Files')
+   <br>
+
+---
+
 2. Compile 'FlashLoan.sol'
+   <br>
+
+---
+
 3. Deploy contract using the LENDING_POOL_ADDRESS_PROVIDER
-4. Send test-net (Kovan) ETH to the contract
+   ![Deploy contracts](./assets/deploy.png 'Deploy contracts')
+   <br>
+
+---
+
+4. Send test-net (Kovan) ETH to the contract (The contract's address is found here:)
+   ![Contract address](./assets/contract-address.png 'Contract address')
+   <br>
+
+---
+
 5. trigger the flashloan function (with the flashloan asset address)
+   ![Trigger FlashLoan](./assets/trigger-flashloan.png 'Trigger FlashLoan')
+   <br>
+
+---
+
 6. Visit Etherscan to view the transactions
+   ![FlashLoan on Etherscan](./assets/flashloan-etherscan.png 'FlashLoan on Etherscan')
